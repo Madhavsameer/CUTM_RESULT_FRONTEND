@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(246, 214, 249);
+    animation-name: bganime;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.student-details-container {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #007bff;
+}
+
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    padding: 12px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.5);
+}
+
+.submit-button {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.details-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff;
+}
+
+.student-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.cgpa {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2f5de7;
+    margin-top: 20px;
+    background-color: #e6932e;
+}
+
+@media screen and (max-width: 768px) {
+    .student-details-container {
+        width: 90%;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .input-field {
+        width: 70%;
+    }
+
+    .submit-button {
+        width: 28%;
+    }
+
+    .details-title {
+        font-size: 20px;
+    }
+
+    .cgpa {
+        font-size: 18px;
+    }
+}
+.congrats-message {
+    text-align: center;
+    background-color: #58f31f;
+    color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    animation: slideIn 0.2s ease-in-out forwards;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateZ(-50px);
+        opacity: 0;
+        transform: scale(1.0);
+    }
+    to {
+        transform: translateZ(0);
+        opacity: 1;
+        transform: scale(1.5);
+    }
+}
+@keyframes bganime {
+    from{
+        background-color: rgb(241, 186, 237);
+    }
+    to{
+        background-color: #81ccf4;
+    }
+    
+}
+.print-button {
+    background-color: #979af3;
+    color: #473e3e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.print-button:hover {
+    background-color: hsl(211, 74%, 54%);
+}
+
+
+
+/* Additional styles if needed */
+
+
