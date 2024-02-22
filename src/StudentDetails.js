@@ -23,7 +23,7 @@ const StudentDetails = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get(`http://localhost:5000/api/students/${regNo}`);
+            const response = await axios.get(`https://cutm-result-backend.onrender.com/${regNo}`);
             setStudentData(response.data); // Update studentData state with response data
             setStudentName(response.data[0]?.Name || '');
             setRegistrationNumber(response.data[0]?.Reg_No || '');
