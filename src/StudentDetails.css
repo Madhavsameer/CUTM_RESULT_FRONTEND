@@ -14,8 +14,9 @@ body{
 .title {
     text-align: center;
     margin-bottom: 20px;
+    margin-top:60px ;
     font-size: 32px;
-    color: #007bff;
+    color: #477bec;
 }
 
 .search-form {
@@ -40,6 +41,7 @@ body{
 .submit-button {
     padding: 12px 24px;
     background-color: #007bff;
+    margin: 20px 20px;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -123,14 +125,14 @@ body{
 
 @keyframes slideIn {
     from {
-        transform: translateZ(-50px);
+        transform: translateZ(-20px);
         opacity: 0;
         transform: scale(1.0);
     }
     to {
         transform: translateZ(0);
         opacity: 1;
-        transform: scale(1.5);
+        transform: scale(1.1);
     }
 }
 @keyframes bganime {
@@ -156,8 +158,55 @@ body{
 
 .print-button:hover {
     background-color: hsl(211, 74%, 54%);
+    background-image: url();
 }
-
+#footer{
+    background-color: #f0b454;
+    margin-top: 520px;
+    padding: 10px;
+    text-align:center ;
+    
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer__container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .footer__links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer__link-item {
+    margin-right: 20px;
+  }
+  
+  .footer__link-item:last-child {
+    margin-right: 0;
+  }
+  
+  .footer__icon {
+    width: 30px; /* Adjust size as needed */
+    height: 30px; /* Adjust size as needed */
+  }
+  
+  .footer__link-item a {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .footer__link-item a:hover {
+    transform: scale(1.2); /* Increase size on hover */
+  }
+  
 
 
 /* Additional styles if needed */
