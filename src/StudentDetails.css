@@ -89,7 +89,7 @@ body{
     width: 140px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 550px;
+    margin-left: 60%;
 }
 
 @media screen and (max-width: 768px) {
@@ -156,7 +156,7 @@ body{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    margin-left: 550px;
+    margin-left: 60%;
     margin-top: 50px;
 }
 
