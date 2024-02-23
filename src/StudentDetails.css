@@ -87,7 +87,8 @@ body{
     margin-top: 20px;
     background-color: #e467cd;
     width: 140px;
-    height: 75px;
+    height: 35px;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 768px) {
