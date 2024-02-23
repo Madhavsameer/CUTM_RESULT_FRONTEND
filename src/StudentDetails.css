@@ -85,7 +85,9 @@ body{
     font-size: 20px;
     color: #2f5de7;
     margin-top: 20px;
-    background-color: #e6932e;
+    background-color: #e467cd;
+    width: 60px;
+    height: 35px;
 }
 
 @media screen and (max-width: 768px) {
@@ -106,11 +108,11 @@ body{
     }
 
     .details-title {
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .cgpa {
-        font-size: 18px;
+        font-size: 28px;
     }
 }
 .congrats-message {
@@ -162,7 +164,7 @@ body{
 }
 #footer{
     background-color: #f0b454;
-    margin-top: 420px;
+    margin-top: 400px;
     padding: 10px;
     text-align:center ;
     
