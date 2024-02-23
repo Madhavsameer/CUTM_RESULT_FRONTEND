@@ -156,7 +156,7 @@ body{
     border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    margin-left: 80%;
+    margin-left: 90%;
     margin-top: 50px;
 }
 
@@ -166,7 +166,7 @@ body{
 }
 #footer{
     background-color: #f0b454;
-    margin-top: 300px;
+    margin-top: 340px;
     padding: 10px;
     text-align:center ;
     

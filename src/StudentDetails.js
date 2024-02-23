@@ -124,7 +124,7 @@ const StudentDetails = () => {
             )}
             {studentData.length > 0 && (
                 <div>
-                    <button className="print-button" onClick={handlePrint}>Print Report Card</button>
+                    <button className="print-button" onClick={handlePrint}>Print</button>
                     <h2 className="details-title">Student Details</h2>
                     <table className="student-table">
                         <thead>
