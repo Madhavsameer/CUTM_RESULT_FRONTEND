@@ -86,10 +86,10 @@ body{
     color: #2f5de7;
     margin-top: 20px;
     background-color: #e467cd;
-    width: 140px;
+    width: 240px;
     height: 35px;
     border-radius: 10px;
-    margin-left: 60%;
+    margin-left: 80%;
 }
 
 @media screen and (max-width: 768px) {
@@ -114,7 +114,7 @@ body{
     }
 
     .cgpa {
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 .congrats-message {
@@ -151,12 +151,12 @@ body{
 .print-button {
     background-color: #979af3;
     color: #473e3e;
-    padding: 10px 20px;
+    padding: 7px 7px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
-    margin-left: 60%;
+    margin-left: 80%;
     margin-top: 50px;
 }
 
@@ -166,7 +166,7 @@ body{
 }
 #footer{
     background-color: #f0b454;
-    margin-top: 400px;
+    margin-top: 300px;
     padding: 10px;
     text-align:center ;
     
